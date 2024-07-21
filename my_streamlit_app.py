@@ -53,4 +53,4 @@ if categorical_columns.size > 0:
     plt.figure(figsize=(12, 6))
     sns.countplot(data=df, x='continent', hue='continent')
     plt.ylabel('Nombre de voitures')
-    st.pyplot(plt)
+    st.pyplot(plt) 
